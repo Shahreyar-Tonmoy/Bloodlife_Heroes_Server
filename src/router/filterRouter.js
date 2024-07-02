@@ -1,5 +1,6 @@
 import express from 'express';
-import { filterBloodGroup, filterDonors } from '../controller/Filter.js';
+import { filterBloodGroup, filterDonors } from '../controller/filter.js';
+
 
 const  FilterRouter = express.Router()
 
